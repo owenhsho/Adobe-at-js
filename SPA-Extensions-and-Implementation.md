@@ -31,7 +31,7 @@ adobe.target.ext.angular.initRoutes(app,     // Angular module, object reference
 
 **Demo:** [Route Change Example](http://adobe-marketing-cloud.github.io/target-sdk-libraries/demos/examples/angular/route_change_demo.html)
 
-## Hash Change Detection
+## Hash Change
 Many single page applications update the URL on view changes. We can use these URL updates to trigger an mbox call.
 
 **Example:** Put this code after at.js to trigger mbox calls on pushState/hashchange:  
@@ -48,7 +48,7 @@ Many single page applications update the URL on view changes. We can use these U
 **Demo:**
 [hashChange Example](http://adobe-marketing-cloud.github.io/target-sdk-libraries/demos/examples/classic/hash_change_event.html)
 
-## Custom Event Detection
+## Custom Event
 If your single page application does not update the URL on view change, consider triggering a custom event instead.  An event listener can then be used to trigger mbox calls when this happens. (Note: this technique can be used on small updates to the viewport, too)
 
 **Data Layers:** Be sure to update your data layer before triggering the event to maximize usage in Target.
