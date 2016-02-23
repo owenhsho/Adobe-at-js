@@ -1,7 +1,4 @@
 
-
-The new AT.js library can be integrated into Single Page Application using the following extensions:
-
 ## View Change Mbox: Angular Route Change
 Using promises in Angular's router can provide a "flicker-free" implementation on view changes.  This approach could be used in an application using Angular's ngRoute module.  Conveniently, it can be added to the application using DTM.
 
