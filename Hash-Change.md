@@ -2,7 +2,7 @@ Many single page applications update the URL on view changes. We can use these U
 
 ##Example: Put this code after at.js to trigger mbox calls on pushState/hashchange:  
 
-[Offers.js](http://adobe-marketing-cloud.github.io/target-sdk-libraries/demos/examples/angular/js/offers.js)
+[Example Code](http://adobe-marketing-cloud.github.io/target-sdk-libraries/demos/examples/angular/js/offers.js)
 
 
 **Data Layer:** Be sure to update your data layer before processing the URL change to maximize usage in Target.
