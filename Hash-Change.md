@@ -1,4 +1,3 @@
-## Hash Change
 Many single page applications update the URL on view changes. We can use these URL updates to trigger an mbox call.
 
 **Example:** Put this code after at.js to trigger mbox calls on pushState/hashchange:  
