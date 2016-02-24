@@ -10,4 +10,4 @@ Many single page applications update the URL on view changes. We can use these U
 **DTM:** Event-based rules using the "pushState/hashChange" condition can be used to trigger mbox calls instead of the Example code above.  There is an additional roundtrip needed to retrieve code from DTM before making the mbox call.
 
 ##Demo:
-[hashChange Example](http://adobe-marketing-cloud.github.io/target-sdk-libraries/demos/examples/classic/hash_change_event.html)
+[hashChange Example](http://adobe-marketing-cloud.github.io/target-sdk-libraries/demos/examples/angular/hash_change_event.html)
