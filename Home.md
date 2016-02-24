@@ -1,5 +1,3 @@
-The new AT.js library can be integrated into Single Page Application using the following extensions:
-
 Adobe Target extensions for `at.js` to support Single Page Application (SPA) implementations. These extensions are provided free to developers as a starting point to integrate `at.js` with SPA. Customization may be required to integrate successfully with your SPA, with which Adobe Consulting can help.
 
 
