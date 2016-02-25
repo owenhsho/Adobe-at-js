@@ -7,8 +7,7 @@
 
 ##Integration Instructions:
   1. Use at.js without the auto-created mbox
-  1. Add extension [adobe.target.ext.angular.lib+uirouter.js](https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/blob/master/src/angular/adobe.target.ext.angular.lib%2Buirouter.js) to your server.
-  1. Add the above file to the end of _at.js_ in the Target Tool configuration of DTM.  Or, include it in your HTML after _angular.js_ and _at.js_
+  1. Add the extension [adobe.target.ext.angular.lib+uirouter.js](https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/blob/master/src/angular/adobe.target.ext.angular.lib%2Buirouter.js) to your page after _angular.js_ and _at.js_ OR add the extension to the end of _at.js_ in the Target Tool configuration of DTM.  
   1. Initialize with `adobe.target.ext.angular.initStates` method by passing your Angular module as an argument. In DTM you might need to include this as a Sequential Javascript snippet in a Page Load Rule triggered at the Bottom of the Page. 
 
 ``` javascript
