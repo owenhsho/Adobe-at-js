@@ -1,4 +1,4 @@
-**Angular UIRouter** extension for at.js library is using promises (delayed objects) within states to provide a "flicker-free" implementation on view changes.  This approach could be used in an application using Angular's `UIRouter` module.  Conveniently, this extension implementation can be added to the application using DTM.
+**Angular UIRouter** extension for at.js library uses promises (delayed objects) within states to provide a "flicker-free" implementation on view changes.  This approach could be used in an application using Angular's `UIRouter` module.  Conveniently, this extension can be added to the application using DTM.
 
 ##Prerequisites: 
   1. AT.js library
