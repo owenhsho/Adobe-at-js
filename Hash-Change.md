@@ -1,4 +1,4 @@
-Many single page applications update the URL on view changes. We can use these URL updates to trigger an mbox call.  Since the mbox call will be made asynchronously, in-parallel with your view change you may experience flicker when using the mbox response to replace default content.
+Many single page applications update the URL on view changes. We can use these URL updates to trigger an mbox call.  Keep in mind that since the mbox call will be made asynchronously, in-parallel with your view change _visitors may experience flicker_ when the mbox response replaces default content.
 
 ##Example: Put this code after at.js to trigger mbox calls on pushState/hashchange:  
 
