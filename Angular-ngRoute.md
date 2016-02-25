@@ -1,4 +1,4 @@
-**Angular ngRoute** extension for at.js library uses promises (delayed objects) within routes to provide a "flicker-free" implementation on view changes.  This approach could be used in an application using Angular's `ngRoute` module.  Conveniently, this extension implementation can be added to the application using DTM.
+**Angular ngRoute** extension for at.js library uses promises (delayed objects) within routes to provide a "flicker-free" implementation on view changes.  This approach could be used in an application using Angular's `ngRoute` module.  Conveniently, this extension can be added to the application using DTM.
 
 ##Prerequisites: 
   1. AT.js library
@@ -8,7 +8,7 @@
 ##Integration Instructions:
   1. Use at.js without the auto-created mbox
   1. Add extension [adobe.target.ext.angular.lib+ngroute.js](https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/blob/master/src/angular/adobe.target.ext.angular.lib%2Bngroute.js) to your server in your HTML after _angular.js_ and _at.js_ OR add the above file's contents to the end of _at.js_ in the Target Tool configuration of DTM.
-  1. Initialize with `adobe.target.ext.angular.initRoutes` method by passing your Angular module as an argument. In DTM you might need to include this as a Sequential Javascript snippet in a Page Load Rule triggered at the Bottom of the Page. 
+  1. Initialize with `adobe.target.ext.angular.initRoutes` method by passing your Angular module as an argument. In DTM you might need to include this as a Sequential Javascript snippet in a Page Load Rule triggered at the bottom of the relevant page. 
 
 Simple example:
 ``` javascript
