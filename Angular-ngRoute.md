@@ -1,4 +1,4 @@
-**Angular ngRoute** extension for at.js library is using promises (delayed objects) within routes to provide a "flicker-free" implementation on view changes.  This approach could be used in an application using Angular's `ngRoute` module.  Conveniently, this extension implementation can be added to the application using DTM.
+**Angular ngRoute** extension for at.js library uses promises (delayed objects) within routes to provide a "flicker-free" implementation on view changes.  This approach could be used in an application using Angular's `ngRoute` module.  Conveniently, this extension implementation can be added to the application using DTM.
 
 ##Prerequisites: 
   1. AT.js library
