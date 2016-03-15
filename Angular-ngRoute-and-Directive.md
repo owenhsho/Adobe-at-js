@@ -29,7 +29,7 @@ Example with all available options:
 adobe.target.ext.angular.initRoutes(app,     // Angular module, object reference or string, required 
     {
         params: {param1:'val1',param2:'val2'}, // Target mbox parameters, optional
-        mbox: 'custom-mbox-name',            // Target mbox name, optional
+        //mbox: 'custom-mbox-name',          // Target mbox name, optional
         selector: 'body',                    // CSS selector to inject Target content to, optional
         timeout: 5000,                       // Target call timeout
         allowedRoutesFilter: [],             // Blank for all routes or restrict to specific routes: ['/','/about','/item/:id']
