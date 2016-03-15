@@ -4,6 +4,6 @@ Adobe Target extensions for `at.js` to support Single Page Application (SPA) imp
 * [Angular ngRoute](https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/wiki/Angular-ngRoute)
 * [Angular UIRouter](https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/wiki/Angular-UIRouter)
 * [Angular Directive](https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/wiki/Angular-Directive)
-* [Angular Directive](https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/wiki/Angular-ngRoute-and-Directive)
+* [Angular ngRoute and Directive](https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/wiki/Angular-ngRoute-and-Directive)
 * [Hash Change](https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/wiki/Hash-Change)
 * [Custom Event](https://github.com/Adobe-Marketing-Cloud/target-spa-extensions/wiki/Custom-Event)
