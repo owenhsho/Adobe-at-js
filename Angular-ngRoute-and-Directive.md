@@ -28,13 +28,25 @@ Example with all available options:
 ``` javascript
 adobe.target.ext.angular.initRoutes(app,     // Angular module, object reference or string, required 
     {
-        params: {param1:'val1',param2:'val2'},     // Target mbox parameters, optional
+        params: {param1:'val1',param2:'val2'}, // Target mbox parameters, optional
         mbox: 'custom-mbox-name',            // Target mbox name, optional
         selector: 'body',                    // CSS selector to inject Target content to, optional
         timeout: 5000,                       // Target call timeout
         allowedRoutesFilter: [],             // Blank for all routes or restrict to specific routes: ['/','/about','/item/:id']
         disallowedRoutesFilter: [],          // Exclude specific routes: ['/login','/privacy']
         debug: true                          // Print console statements
+    });
+
+
+adobe.target.ext.angular.initDirective(app, // Angular module, object reference or string, required 
+    {
+        params:  {param1:'val1',param2:'val2'}, // Target mbox parameters, optional
+        mbox: 'directive-mbox',           // Target mbox name, optional
+        selector: '.selector',            // CSS selector for mbox element, optional
+        //timeout: 5000,                  // Target call timeout
+        allowedRoutesFilter: [],          // Blank for all routes or restrict to specific routes: ['/','/about','/item/:id']
+        disallowedRoutesFilter: [],       // Exclude specific routes: ['/login','/privacy']
+        debug: true                       // Print console statements
     });
 ```  
 
