@@ -6,7 +6,7 @@
 
 ##Integration Instructions:
   1. Use at.js
-  1. Initialize Directive part with `adobe.target.ext.angular.initDirective` method by passing your Angular module as an argument. In DTM this may also need to be included as a Sequential Javascript snippet in a Page Load Rule triggered at the bottom. 
+  1. Initialize Directive part with [adobe.target.ext.angular.initDirective](https://github.com/Adobe-Marketing-Cloud/target-atjs-extensions/blob/master/src/angular/adobe.target.ext.angular.lib%2Bdirective.js) method by passing your Angular module as an argument. In DTM this may also need to be included as a Sequential Javascript snippet in a Page Load Rule triggered at the bottom. 
 
 Simple example:
 ``` javascript
